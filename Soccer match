@@ -1,0 +1,25 @@
+z = "Ruud Gullit "
+y = "van Basten "
+goal_0 = "32"
+goal_1 = "54"
+scorers = (z + goal_0, y + goal_1)
+print(scorers)
+report = f"{z}scored in the {goal_0}nd minute\n{y}scored in the {goal_1}th minute"
+print(report)
+player = "Anatoliy Demyanenko"
+print(player[0:8])
+first_name = player.find("Anatoliy")
+print(first_name)
+last_name = player.find("Demyanenko")
+print(last_name)
+first_name0 = "Anatoliy"
+last_name0 = "Demyanenko"
+last_name_len = print(len(last_name0))
+name_short = print(first_name0[0]+". " + last_name0)
+first_name1 = "Ruud! "
+chant = f"{first_name1}" * 3 + "Ruud!"
+print(chant)
+space = " "
+print(len(chant))
+print(chant[-1])
+print(chant[-1] != space)
